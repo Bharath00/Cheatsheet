@@ -1,0 +1,5 @@
+# IF Cluster is created via Console and trying to run commands through CLI : Kubeconfig needs to be updated.
+aws eks update-kubeconfig --name <clustername> --region <region> 
+
+# EKSCTL Managed (Created by EKSCTL) vs Created on Console (non-eksctl managed)
+

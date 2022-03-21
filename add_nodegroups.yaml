@@ -1,0 +1,27 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: Devops1
+  region: us-east-1
+
+vpc:
+  id: "vpc-0241b60e4ceacda87"
+  securityGroup: "sg-062948343359a3b3e"
+  subnets:
+    public:
+      EKS-Stack-1-PublicSubnet02:
+        id: "subnet-0f4df86e60a619cb7"
+---
+
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: Devops1
+  region: us-east-1
+
+nodeGroups:
+  - name: ng-config
+    minSize: 1
+    labels: {role : workers}
+    instanceType: t2.micro
+    availabilityZones: ["us-east-1a"]
