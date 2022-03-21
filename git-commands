@@ -1,0 +1,44 @@
+# Login via terminal
+
+git config --global user.name "Your name here"
+git config --global user.email "your_email@example.com"
+
+# Go into the Directory and from the Current Directory
+git init (intialize a .git repository)
+
+# Clone a local repository      
+git clone <path of repo>
+
+# Clone a remote repo
+git clone username@host:/path/to/repository
+
+# Add files to git
+git add *
+git add <filename>
+
+# The git commit command captures a snapshot of the project's currently staged changes. 
+#Committed snapshots can be thought of as “safe” versions of a project—Git will never change them
+#unless you explicitly ask it to. 
+#Prior to the execution of git commit, The git add command is used to promote or 'stage' changes 
+#to the project that will be stored in a commit. These two commands git commit and git add are two of the most frequently used.
+
+git commit -m ""
+git commit -a (for all staged changes)
+
+#List all currently configured remote repositories
+git remote -v 
+
+# Adding the remote repo
+git remote add origin <Remote Repo URL>
+
+# For changing remote Repo
+git remote set-url origin https://github.com/Bharath00/Cheatsheet.git
+
+# The git push command is used to upload local repository content to a remote repository
+git push <remote> <branch>
+git push origin master
+
+# 
+
+
+
