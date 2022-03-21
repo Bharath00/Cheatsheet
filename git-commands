@@ -38,7 +38,14 @@ git remote set-url origin https://github.com/Bharath00/Cheatsheet.git
 git push <remote> <branch>
 git push origin master
 
-# 
+# List the files you've changed and those you still need to add or commit:
+git status
 
+#Create a new branch
+git branch <branchname>
 
+# Switch to a new branch
+git checkout <branchname>
 
+# Create a new branch and change
+git checkout -b <branchname>
