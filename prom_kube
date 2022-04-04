@@ -1,0 +1,12 @@
+# How to setup prometheus using Minikube using helm
+
+Install Minikube 
+Install helm
+
+Kubectl apply -f filename <filename>  
+kubectl delete deployments <deployment name>
+kubectl delete svc <service name>
+
+Helm is used to install or uninstall packages.
+
+kubectl expose deployment nginx-deployment --type=LoadBalancer --port=8080

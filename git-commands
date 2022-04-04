@@ -66,3 +66,6 @@ git push origin <branchname>
 
 #Push all branches to your remote repository:
 git push --all origin
+
+#List Local Repo
+git ls-tree -r <branch name> --name-only
