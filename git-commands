@@ -24,12 +24,6 @@ git add <filename>
 
 git commit -m ""
 git commit -a (for all staged changes)
-   new file:   .dockerignore
-        new file:   .gitignore
-        new file:   Readme.md
-        new file:   get_helm.sh
-        modified:   git-commands
-        new file:   prom_kube
 
 
 # To Restore staged file after git add
