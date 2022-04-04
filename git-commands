@@ -24,6 +24,16 @@ git add <filename>
 
 git commit -m ""
 git commit -a (for all staged changes)
+   new file:   .dockerignore
+        new file:   .gitignore
+        new file:   Readme.md
+        new file:   get_helm.sh
+        modified:   git-commands
+        new file:   prom_kube
+
+
+# To Restore staged file after git add
+git restore --staged <filename> 
 
 #List all currently configured remote repositories
 git remote -v 
@@ -49,3 +59,16 @@ git checkout <branchname>
 
 # Create a new branch and change
 git checkout -b <branchname>
+
+# Merge Branches if any code change
+git checkout <Repo to be updated>
+git merge <Repo with new code>
+
+#Preview changes, before merging:
+git diff <Update repo> <repo with outdated code>
+
+#Push the branch to your remote repository, so others can use it:
+git push origin <branchname>
+
+#Push all branches to your remote repository:
+git push --all origin
