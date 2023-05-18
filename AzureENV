@@ -1,0 +1,32 @@
+[
+  {
+    "name": "KC_HOSTNAME",
+    "value": "testkeycloak.azurewebsites.net",
+    "slotSetting": false
+  },
+  {
+    "name": "KC_HOSTNAME_STRICT",
+    "value": "false",
+    "slotSetting": false
+  },
+  {
+    "name": "KC_PROXY",
+    "value": "edge",
+    "slotSetting": false
+  },
+  {
+    "name": "KEYCLOAK_ADMIN",
+    "value": "admin",
+    "slotSetting": false
+  },
+  {
+    "name": "KEYCLOAK_ADMIN_PASSWORD",
+    "value": "admin",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+    "value": "true",
+    "slotSetting": false
+  }
+]
